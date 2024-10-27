@@ -1,10 +1,11 @@
+import java.util.Scanner;
 
 public class test_condiones {
 
 
     public static void main(String[] args) {
-
-        double salario = 3300.0;
+Scanner sc = new Scanner(System.in);
+        double salario = sc.nextDouble();
 
         //if(salario < 2600.0)  
            // System.out.println("Su tasa es del  15%");
@@ -22,6 +23,7 @@ public class test_condiones {
             System.out.println ("Su tasa es del 22.5%");
             System.out.println ("Puede deducir R $ 636");
         }
+    sc.close();
     
     }    
 }
